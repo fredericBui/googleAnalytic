@@ -1,42 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Custom T-Shirt Shop</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XGZMSMZ0N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9XGZMSMZ0N');
+    </script>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
+
         header {
             background-color: #333;
             color: white;
             padding: 10px 20px;
         }
+
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
         }
+
         nav ul li {
             margin-right: 20px;
         }
+
         nav ul li a {
             color: white;
             text-decoration: none;
         }
+
         nav ul li a:hover {
             text-decoration: underline;
         }
+
         .product-list {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
             padding: 20px;
         }
+
         .product-item {
             border: 1px solid #ddd;
             border-radius: 5px;
@@ -45,17 +62,21 @@
             box-sizing: border-box;
             text-align: center;
         }
+
         .product-item img {
             max-width: 100%;
             height: auto;
             border-radius: 5px;
         }
+
         .product-item h3 {
             margin: 10px 0;
         }
+
         .product-item p {
             color: #555;
         }
+
         .product-item button {
             background-color: #333;
             color: white;
@@ -64,11 +85,13 @@
             cursor: pointer;
             border-radius: 5px;
         }
+
         .product-item button:hover {
             background-color: #555;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Custom T-Shirt Shop</h1>
@@ -101,4 +124,6 @@
         </div>
     </section>
 </body>
-</html></div>
+
+</html>
+</div>
